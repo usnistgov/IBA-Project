@@ -1,4 +1,44 @@
-# NIST Open-Source Software Repository Template
+# Intelligent Building Agents Project
+
+In the U.S., commercial buildings are responsible for approximately 36 % of total energy consumption, 
+and the heating, ventilation, and air-conditioning (HVAC) systems make up about 52 % of that total. 
+Improving building operations can significantly reduce the amount and cost of the energy used in the 
+commercial building sector. The Intelligent Building Agents (IBA) project is part of the Embedded Intelligence 
+in Buildings Program in the Engineering Laboratory at the National Institute of Standards and Technology (NIST).
+A key part of the IBA Project is the IBA Laboratory (IBAL), a unique facility consisting of a mixed system 
+of off the shelf equipment, including chillers and air handling units, controlled by a data acquisition 
+system and capable of supporting building system optimization research under realistic and reproducible 
+operating conditions.
+
+## Data
+The [IBAL Database][ibal-db] contains the values of approximately 300 sensors/actuators in the IBAL, 
+including both sensor measurements and control actions, as well as approximately 850 process data, 
+which are typically related to control settings and decisions. Each of the sensors/actuators has 
+associated metadata. Data are collected every 10 s. The data can be access as individual sensor data or as 
+all the data from a specific test. For example, searching for "DOE Formal Testing" in the Experiments page will
+bring up tests run as part of a 2019 DOE BENEFIT project. Data can be isolated by subsystem as well. If you select
+Chiller1, for example, all sensors directly related to Chiller1 are listed. The time series data are shown 
+as plots and can be downloaded as csv files for use offline.
+
+## Software
+This repository contains scripts developed as part of the IBA project for data processing and model development.
+They are organized based on the equipment they model, the publication they support, or another keyword. When
+use in support of a publication, the publication or a link to it are included in the folder.
+
+## Contact
+If you have questions or would like to discuss the IBA project, contact:
+
+Amanda Pertzborn, PhD  @apertzbo <br>
+Engineering Laboratory<br>
+Building Energy and Environment Division<br>
+Mechanical Systems and Controls Group<br>
+
+## Related materials
+
+## Citations
+
+<!-- References -->
+[ibal-db]: https://ibal.nist.gov
 
 Use of GitHub by NIST employees for government work is subject to
 the [Rules of Behavior for GitHub][gh-rob]. This is the
