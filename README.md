@@ -23,50 +23,31 @@ as plots and can be downloaded as csv files for use offline.
 ## Software
 This repository contains scripts developed as part of the IBA project for data processing and model development.
 They are organized based on the equipment they model, the publication they support, or another keyword. When
-use in support of a publication, the publication or a link to it are included in the folder.
+use in support of a publication, the publication or a link to it are included in the folder. Each script has different 
+software requirements. The languages include MATLAB, Python, and FORTRAN.
 
 ## Contact
 If you have questions or would like to discuss the IBA project, contact:
 
-Amanda Pertzborn, PhD  @apertzbo <br>
+Amanda Pertzborn, PhD  [@apertzbo][apertzbo] <br> 
 Engineering Laboratory<br>
 Building Energy and Environment Division<br>
 Mechanical Systems and Controls Group<br>
 
 ## Related materials
+More information about the IBA Project can be found at: 
+
+[Intelligent Building Agents Project][iba]
+
 
 ## Citations
 
 <!-- References -->
 [ibal-db]: https://ibal.nist.gov
+[apertzbo]: https://github.com/apertzbo
+[iba]: https://nist.gov/el/energy-and-environment-division-73200/intelligent-buildings-agents-project
 
-Use of GitHub by NIST employees for government work is subject to
-the [Rules of Behavior for GitHub][gh-rob]. This is the
-recommended template for NIST employees, since it contains
-required files with approved text. For details, please consult
-the Office of Data & Informatics' [Quickstart Guide to GitHub at
-NIST][gh-odi].
 
-Please click on the green **Use this template** button above to
-create a new repository under the [usnistgov][gh-nst]
-organization for your own open-source work. Please do not "fork"
-the repository directly, and do not create the templated
-repository under your individual account.
-
-The key files contained in this repository -- which will also
-appear in templated copies -- are listed below, with some things
-to know about each.
-
----
-
-## README
-
-Each repository will contain a plain-text [README file][wk-rdm],
-preferably formatted using [GitHub-flavored Markdown][gh-mdn] and
-named `README.md` (this file) or `README`.
-
-Per the [GitHub ROB][gh-rob] and [NIST Suborder 1801.02][nist-s-1801-02],
-your README should contain:
 
 1. Software or Data description
    - Statements of purpose and maturity
