@@ -35,17 +35,45 @@ Building Energy and Environment Division<br>
 Mechanical Systems and Controls Group<br>
 
 ## Related materials
-More information about the IBA Project can be found at: 
+Information about the IBA Project: 
 
-[Intelligent Building Agents Project][iba]
+[Intelligent Building Agents Project][iba] <br>
+[Embedded Intelligence in Buildings Program][eib] <br>
+[Publications][nist_bio] <br>
+
+Information about software:
+
+[TRNSYS][trnsys] <br>
+[EnergyPlus][eplus] <br>
+[EnergyPlust to FMU][eplusFMU] <br>
+[MATLAB][matlab] <br>
+[Simulink][simulink] <br>
+[Python][python] <br>
+[scikit-learn][scikit] <br>
+[pytorch][pytorch] <br>
+[tensorflow][tensorflow] <br>
 
 
 ## Citations
+When using 
+
 
 <!-- References -->
 [ibal-db]: https://ibal.nist.gov
 [apertzbo]: https://github.com/apertzbo
 [iba]: https://nist.gov/el/energy-and-environment-division-73200/intelligent-buildings-agents-project
+[eib]: https://www.nist.gov/programs-projects/embedded-intelligence-buildings-program
+[nist_bio]: https://www.nist.gov/people/amanda-pertzborn
+[trnsys]: https://www.trnsys.com/
+[python]: https://www.python.org/
+[scikit]: https://scikit-learn.org/stable/
+[pytorch]: https://pytorch.org/
+[tensorflow]: https://www.tensorflow.org/
+[eplus]: https://energyplus.net/
+[eplusFMU]: https://github.com/lbl-srg/EnergyplusToFMU
+[matlab]: https://www.mathworks.com/
+[simulink]: https://www.mathworks.com/products/simulink.html#:~:text=Simulink%20is%20a%20block%20diagram,and%20deploy%20without%20writing%20code.
+
 
 
 
