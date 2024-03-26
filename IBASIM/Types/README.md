@@ -1,5 +1,5 @@
 ## Types 
-The types listed here were developed specifically for the IBAL model. The FORTRAN codes are included in this folder.
+The types listed here were developed specifically for the IBAL model. The FORTRAN codes are included in this folder. These types call other subroutines that are included as part of TRNSYS, but are not included here.
 
 | Type ID  | Equipment | Description |
 | ------------- | ------------- | ------------- |
