@@ -26,6 +26,12 @@ They are organized based on the equipment they model, the publication they suppo
 use in support of a publication, the publication or a link to it are included in the folder. Each script has different 
 software requirements. The languages include MATLAB, Python, and FORTRAN.
 
+## Research Topics
+The folders in this repo are organized by research topic. They contain README files to explain their contents in more detail. 
+
+- IBASIM: publications and software related to the simulation model of the IBAL
+- Comparison of ice-on-coil thermal energy storage models: publications and scripts related to the development of machine learning models of the ice-on-coil thermal energy storage system in the IBAL
+
 ## Contact
 [usnistgov/IBA-Project][gh-iba] is developed and maintained
 by:
@@ -58,7 +64,9 @@ Information about software:
 
 
 ## Citations
+Check the README file within each subfolder for citations specific to that set of research. A general reference for the IBA project is:
 
+National Institute of Standards and Technology (2024) _Intelligent Building Agents Project_. Available at [https://www.nist.gov/el/energy-and-environment-division-73200/intelligent-buildings-agents-project][iba]
 
 
 <!-- References -->
