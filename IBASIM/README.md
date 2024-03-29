@@ -1,5 +1,3 @@
-# Folder contents
-
 ## Dependencies
 MATLAB 2020b or newer
 - Parallel computing toolbox
@@ -24,7 +22,7 @@ The DOE BENEFIT 2019 project (grant EE-0009153), [Hardware-in-the-loop Flexible 
 | Atlanta_Shed_ExtrmSum | Load shedding - uses zone temperature setpoint changes to decrease the zone loads during peak period for electric rates - on an extreme summer day (07/08/2015) in Atlanta, GA, USA |
 | Atlanta_Shift_ExtrmSum | Load shifting - pre-cool the zones prior to the peak period for electric rates so that setpoint temperatures can be increased during the peak period - on an extreme summer day (07/08/2015) in Atlanta, GA, USA |
 
-Each case folder contains the full set of files required for that case. Type 155 in TRNSYS calls the script mmFcnCTM11.m, which in turn calls callSim.m, which is the entry point for HSIM. The inputs and outputs for the model are defined in callSim.m. The case can be run without interfacing with TRNSYS from ExampleCall.m. This script loads a file containing real laboratory data and data from a previous execution of IBASIM and uses that data as the input to HSIM.
+Each case has a folder that contains files specific to that case. The SharedModelFiles folder contains the files that are common across cases. To run each case, move the files from the specific case folder into the same folder that contains the SharedModelFiles. You can test the case by running ExampleCall.m, which calls callSim.m, the entry point for HSIM. The inputs and outputs for the model are defined in callSim.m. ExampleCall loads a file containing real laboratory data and data from a previous execution of IBASIM and uses that data as the input to HSIM. When used with TRNSYS, Type 155 in TRNSYS calls the script mmFcnCTM11.m, which calls callSim.m.
 
 <!-- References -->
 
