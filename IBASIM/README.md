@@ -30,10 +30,10 @@ The types listed here were developed specifically for the IBAL model. The FORTRA
 | Type ID  | Equipment | Description |
 | ------------- | ------------- | ------------- |
 | 2201 | Thermal energy storage | Based on the [approach][tesmodel] developed from grant 70NANB17H277 |
-| 8888 | Water-cooled chiller | Based on [Type 888][laith] from grant 70NANB21H108, which is based on [Type 666][TessTypes] |
 | 9031 | Pumps and pipes | Based on [Type 9000][laith] from grant 70NANB21H108; calculates hydronic system pressures and flow rates, and pump power consumption |
 | 9106 | Pump controller | Developed in grant 70NANB21H108 |
 | 9318 | Airflow calculation | Based on [Type 8317][kopach] from grant 70NANB18H203 |
+| 8888 | Water-cooled chiller | Based on [Type 888][laith] from grant 70NANB21H108, which is based on [Type 666][TessTypes] |
 | 9898 | Cooling coil | Based on [Type 9897][kopach] from grant 70NANB18H203; models the cooling coil in the AHUs |
 
 <!-- References -->
