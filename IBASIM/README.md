@@ -24,7 +24,9 @@ The DOE BENEFIT 2019 project (grant EE-0009153), [Hardware-in-the-loop Flexible 
 
 Each case has a folder that contains files specific to that case. The SharedModelFiles folder contains the files that are common across cases. To run each case, move the files from the specific case folder into the same folder that contains the SharedModelFiles. You can test the case by running ExampleCall.m, which calls callSim.m, the entry point for HSIM. The inputs and outputs for the model are defined in callSim.m. ExampleCall loads a file containing real laboratory data and data from a previous execution of IBASIM and uses that data as the input to HSIM. When used with TRNSYS, Type 155 in TRNSYS calls the script mmFcnCTM11.m, which calls callSim.m.
 
-## Types 
+## TSIM
+The TSIM folder contains all TRNSYS related scripts and DLLs. You will need TRNSYS18 and the TESS libraries to run the code. TSIM.tpf is the simulation studio code (plce in the MyProjects folder in the TRNSYS directory); TSIM.dck is the text-based deck file. MyTypes contains the types and proformas developed for this project; the contents should be copied to the MyTypes folder in the TRNSYS directory. The UserLib contains the Debug and Release DLLs and should be copied to the UserLib folder in the TRNSYS directory.
+
 The types listed here were developed specifically for the IBAL model. The FORTRAN codes are included in this folder. These types call other subroutines that are included as part of TRNSYS, but are not included here.
 
 | Type ID  | Equipment | Description |
