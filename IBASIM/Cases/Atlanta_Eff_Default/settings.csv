@@ -1,0 +1,9 @@
+stepsize,SeasonType,GEB_case,Control_method,occ_dense,occ_energysaving,TES,recv,ts_recv,coll_recv,Location,STD,Var13,Note,Var15
+60,4,1,0,0,0,0,0,420,current,1,1,NaN,GEB_case,(0-none;1-efficiency;2-shedding;3-shifting;4-modulate)
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,,NaN,NaN,NaN,Control_method,(0-rule based;1-MPC)
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,,NaN,NaN,NaN,occ_dense,(0-no;1-yes)
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,,NaN,NaN,NaN,occ_energysaving,(0-no;1-yes)
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,,NaN,NaN,NaN,TES,(0-no;1-yes)
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,,NaN,NaN,NaN,Location,(1-Atlanta;2-Buffalo;3-NewYork;4-Tucson;5-ElPaso)
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,,NaN,NaN,NaN,STD,(1-STD2004;2-STD2019)
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,,NaN,NaN,NaN,SeasonType,(1-typical winter;2-typical shoulder;3-extreme summer;4-typical summer)
