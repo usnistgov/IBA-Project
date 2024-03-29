@@ -24,6 +24,25 @@ The DOE BENEFIT 2019 project (grant EE-0009153), [Hardware-in-the-loop Flexible 
 
 Each case has a folder that contains files specific to that case. The SharedModelFiles folder contains the files that are common across cases. To run each case, move the files from the specific case folder into the same folder that contains the SharedModelFiles. You can test the case by running ExampleCall.m, which calls callSim.m, the entry point for HSIM. The inputs and outputs for the model are defined in callSim.m. ExampleCall loads a file containing real laboratory data and data from a previous execution of IBASIM and uses that data as the input to HSIM. When used with TRNSYS, Type 155 in TRNSYS calls the script mmFcnCTM11.m, which calls callSim.m.
 
+## Types 
+The types listed here were developed specifically for the IBAL model. The FORTRAN codes are included in this folder. These types call other subroutines that are included as part of TRNSYS, but are not included here.
+
+| Type ID  | Equipment | Description |
+| ------------- | ------------- | ------------- |
+| 2201 | Thermal energy storage | Based on the [approach][tesmodel] developed from grant 70NANB17H277 |
+| 8888 | Water-cooled chiller | Based on [Type 888][laith] from grant 70NANB21H108, which is based on [Type 666][TessTypes] |
+| 9031 | Pumps and pipes | Based on [Type 9000][laith] from grant 70NANB21H108; calculates hydronic system pressures and flow rates, and pump power consumption |
+| 9106 | Pump controller | Developed in grant 70NANB21H108 |
+| 9318 | Airflow calculation | Based on [Type 8317][kopach] from grant 70NANB18H203 |
+| 9898 | Cooling coil | Based on [Type 9897][kopach] from grant 70NANB18H203; models the cooling coil in the AHUs |
+
+<!-- References -->
+[TessTypes]: https://www.trnsys.com/tess-libraries/TESSLibs17_General_Descriptions.pdf
+[kopach]: https://sel.me.wisc.edu/publications/theses/kopach21.zip
+[laith]: https://sel.me.wisc.edu/publications/theses/abdulmajeid23.zip
+[tesmodel]: https://www.nist.gov/publications/development-and-validation-simulation-testbed-intelligent-building-agents-laboratory
+
+
 <!-- References -->
 
 ## Citations
