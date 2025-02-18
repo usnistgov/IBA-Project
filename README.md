@@ -2,7 +2,7 @@
 
 In the U.S., commercial buildings are responsible for approximately 36 % of total energy consumption, 
 and the heating, ventilation, and air-conditioning (HVAC) systems make up about 52 % of that total. 
-Improving building operations can significantly reduce the amount and cost of the energy used in the 
+Improving building operations can significantly reduce the cost of the energy used in the 
 commercial building sector. The Intelligent Building Agents (IBA) project is part of the Embedded Intelligence 
 in Buildings Program in the Engineering Laboratory at the National Institute of Standards and Technology (NIST).
 A key part of the IBA Project is the IBA Laboratory (IBAL), a unique facility consisting of a mixed system 
