@@ -31,6 +31,7 @@ The folders in this repo are organized by research topic. They contain README fi
 
 - IBASIM: publications and software related to the simulation model of the IBAL
 - Comparison of ice-on-coil thermal energy storage models: publications and scripts related to the development of machine learning models of the ice-on-coil thermal energy storage system in the IBAL
+- VCBT: data, software, and publications related to testing with the IBAL connected to the controllers in the [VCBT][vcbt]
 
 ## Contact
 [usnistgov/IBA-Project][gh-iba] is developed and maintained
@@ -85,6 +86,6 @@ National Institute of Standards and Technology (2024) _Intelligent Building Agen
 [matlab]: https://www.mathworks.com/
 [simulink]: https://www.mathworks.com/products/simulink.html#:~:text=Simulink%20is%20a%20block%20diagram,and%20deploy%20without%20writing%20code.
 [gh-iba]: https://github.com/usnistgov/IBA-Project
-
+[vcbt]: https://www.nist.gov/laboratories/tools-instruments/virtual-cybernetic-building-testbed
 ---
 
