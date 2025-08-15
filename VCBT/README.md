@@ -1,5 +1,5 @@
 ## Dependencies
-[BACnet DLL]
+[BACnet DLL][bdll]
 
 ## Test data
 Each set of tests contains a points list outlining the points used in the controllers and the ibal. Points that are read from the VCBT controllers and then used in the IBAL have a read_1_write_2 value of 1; the points written to the controllers from the IBAL
